@@ -14,7 +14,7 @@ int main() {
     long long i = 1;
     
     while (n > 0) {
-        result += (n % 2) * place;
+        result += (n % 2) * i;
         i = i * 10;
         n = n / 2;
     }
