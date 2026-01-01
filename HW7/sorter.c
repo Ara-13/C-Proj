@@ -48,9 +48,9 @@ int main() {
             int sum_i = lines[i][lines[i][0]+1];
             int sum_j = lines[j][lines[j][0]+1];
             if(sum_i > sum_j) {
-                int *tmp = lines[i];
+                int *temp = lines[i];
                 lines[i] = lines[j];
-                lines[j] = tmp;
+                lines[j] = temp;
             }
         }
     }
